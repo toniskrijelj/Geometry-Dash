@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8779878828712154407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8779878828712154406}
+  - component: {fileID: 8779878828712154405}
+  m_Layer: 0
+  m_Name: PlayerSprites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8779878828712154406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779878828712154407}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8779878828712154405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779878828712154407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477c3656332d9394cb9e9d21550abdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubePrefab: {fileID: 6882165057495010753, guid: 13632cdbf57a6d64fa5cb796f7910231,
+    type: 3}
+  shipPrefab: {fileID: 7796998398439812302, guid: 6cfd779a1897fd2469f9cab2ab244932,
+    type: 3}
+  ufoPrefab: {fileID: 2028846669705676231, guid: 06ab244f554e0834f85ebfd223a84e98,
+    type: 3}
+  ballPrefab: {fileID: 5146483543599787728, guid: b793ebe9f0946e84cb8bbc798842a03d,
+    type: 3}
+  wavePrefab: {fileID: 6927365155731896268, guid: 48454e92084ca05448e5b329f6191510,
+    type: 3}
+  spiderPrefab: {fileID: 2931500383193255058, guid: ac7174c840a62fe4c9797cb6cb443846,
+    type: 3}
