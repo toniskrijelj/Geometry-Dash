@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
 	public static event EventHandler OnPlayerRespawn;
 	public static Player instance;
 
+	[SerializeField] float XSPEED = 10;
 	public static float XSpeed { get; private set; } = 10;
 
 	public static int gravityScale { get; private set; } = -1;
@@ -63,12 +64,13 @@ public class Player : MonoBehaviour
 		color.a = 0;
 		trail.endColor = color;
 		instance = this;
+		XSpeed = XSPEED;
 	}
 
 	private void Start()
 	{
 		SetPlayerMode(PlayerPrefabs.instance.cubePrefab, 0);
-		rb.velocity = new Vector2(XSpeed, 0);
+		rb.velocity = new Vector2(XSPEED, 0);
 	}
 
 
